@@ -1,0 +1,35 @@
+<body class="sb-nav-fixed">
+
+<nav class='sb-topnav navbar navbar-expand navbar-dark bg-dark'>
+    <a class="navbar-brand" href="index.html"><img [src]="myimage"  height="30px" width="28px" alt=""></a>
+    <button class="btn btn-Link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fa fa-bars"></i></button>
+
+    <!-- navbar search -->
+    <form class='d-done md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0' action="">
+        <div class="input-group">
+                <input type="text" name="" id="" class="form-control" placeholder="search for ..." arial-label="Search" arial-describedby="basic-addon2">
+                <div class="input-group-append">
+                        <button class="btn btn-primary"><i class="fa fa search"></i></button>
+                </div>
+        </div> 
+    </form>
+    <!--Navbar-->
+    <ul class="navbar-nav ml-auto ml-md-0">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" arial-haspopup="true" arial-expanded="false" ></a>
+            <!-- <img src="assets/img" alt=""> -->
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown">
+                    <a class="dropdown-item" href="#">Settings</a>
+                    <a class="dropdown-item" href="#">Activity Log</a>
+                    <div class="dropdown-divider">
+
+                    </div>
+                    <a class="dropdown-item" href="#" routerLink="/login" routerLinkActive="active">Logout</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+
+<!-- <i class="fa fa-youtube"></i> -->
+</body>
